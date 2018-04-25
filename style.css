@@ -1,10 +1,38 @@
-.jumbotron {
-    text-align: center;
+body {
+    background-image: url(html5-css3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
 }
 
+header {
+    text-align: center;
+    font-size: 250%;
+    font-weight: 200;
+}
+
+
 .panel-body {
-    padding: 20px;
-    margin: 10px;
+    padding: 15px;
+    margin: 5px;
     font-size: 250%;    
 }
 
+.col-md-5 {
+    margin: auto;
+}
+
+.panel-title {
+    text-align: center;
+}
+
+#wordToGuess {
+    text-align: center;
+}
+.panel-default {
+    border: none;
+}
+.panel-title {
+    font-size: 250%;
+}
