@@ -44,10 +44,7 @@ function startGame () {
     document.getElementById("winCounter").innerHTML = winCount;
     document.getElementById("lossCounter").innerHTML = lossCount;
 
-    console.log(selectedWord);
-    console.log(lettersInWord);
-    console.log(numBlanks);
-    console.log(blanksAndSuccesses);
+    
 
 }
 
@@ -120,5 +117,5 @@ document.onkeyup = function(event) {
     checkLetters(letterGuessed);
     
     roundComplete();
-    console.log(letterGuessed);
+    
 }
