@@ -71,11 +71,9 @@ else {
     guessesLeft--;
 }  
 
-console.log(blanksAndSuccesses);
 }
 
-function roundComplete() {
-    
+function roundComplete() {    
 
     //Update HTML to reflect current count stats
     document.getElementById("numGuesses").innerHTML = guessesLeft;
