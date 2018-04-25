@@ -42,9 +42,7 @@ function startGame () {
     document.getElementById("wordToGuess").innerHTML = blanksAndSuccesses.join("  ");
     document.getElementById("numGuesses").innerHTML = guessesLeft;
     document.getElementById("winCounter").innerHTML = winCount;
-    document.getElementById("lossCounter").innerHTML = lossCount;
-
-    
+    document.getElementById("lossCounter").innerHTML = lossCount; 
 
 }
 
@@ -77,7 +75,7 @@ console.log(blanksAndSuccesses);
 }
 
 function roundComplete() {
-    console.log("Win Count:" + winCount + " | Loss Count: " + lossCount + " | Guesses Left: " + guessesLeft);
+    
 
     //Update HTML to reflect current count stats
     document.getElementById("numGuesses").innerHTML = guessesLeft;
